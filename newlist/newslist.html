@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <link rel="stylesheet" href="lib/newslist.css">
+    <script src="lib/jquery-1.12.4.min.js"></script>
+    <script src="lib/newslist.js"></script>
+    <title>新闻列表</title>
+</head>
+
+<body>
+
+    <form class="panel panel-primary" id="contentform">
+        <div class="panel-heading">
+            <h3 class="panel-title">发表评论</h3>
+        </div>
+        <div class="panel-body">
+            <div>评论人：</div>
+            <input type="text" class="form-control" name="username" id="username">
+            <div>评论内容：</div>
+            <textarea name="content" id="content" class="form-control"></textarea>
+            <button class="btn btn-primary" id="btnSubmit">提交</button>
+        </div>
+    </form>
+
+
+    <ul class="list-group" id="list_group">
+        <li class="list-group-item">
+            <span class="badge" style="background-color: gold;">评论时间：</span>
+            <span class="badge" style="background-color: aqua;">评论人：</span> Item 1
+        </li>
+    </ul>
+
+
+</body>
+
+</html>
